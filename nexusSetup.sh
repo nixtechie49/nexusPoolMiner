@@ -26,6 +26,6 @@ echo "
 }
 " >> miner.conf
 
-sudo ./nexus_cpuminer
+#sudo ./nexus_cpuminer
 
 
