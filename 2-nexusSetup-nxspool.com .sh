@@ -27,6 +27,6 @@ cat > miner.conf << EOF
 }
 EOF
 
-#sudo ./nexus_cpuminer
+sudo ./nexus_cpuminer
 
 
