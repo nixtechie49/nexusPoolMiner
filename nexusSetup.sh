@@ -24,7 +24,7 @@ echo "
   "primorial_end_prime": 12,
   "experimental": "true"
 }
-" >> txt
+" >> miner.conf
 
 sudo ./nexus_cpuminer
 
