@@ -10,7 +10,8 @@ cd PrimePoolMiner
 
 make MARCHFLAGS=-march=native -f makefile
 
-echo "
+
+cat > miner.conf << EOF
 {
   "host": "nxspool.com",
   "port": "9549",
@@ -24,7 +25,7 @@ echo "
   "primorial_end_prime": 12,
   "experimental": "true"
 }
-" >> miner.conf
+EOF
 
 #sudo ./nexus_cpuminer
 
